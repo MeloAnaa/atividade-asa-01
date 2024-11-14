@@ -8,8 +8,8 @@ COPY named.conf.local /etc/bind
 COPY db.asa.br /etc/bind
 
 #CMD ["/usr/sbin/named", "-g", "-c", "/etc/bind/named.conf"]
-EXPOSE 63/tcp 
-EXPOSE 63/udp
+EXPOSE 53/tcp 
+EXPOSE 53/udp
 #63:63
 
 #TODO CONTAINER DOCKER PRECISA DE UM PONTO DE ENTRADA/EXECUCAO PARA MANTER O CONTAINER 

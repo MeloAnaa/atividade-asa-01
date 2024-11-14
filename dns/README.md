@@ -36,4 +36,4 @@ git push
 
 servidor web:
 usei:
-#docker run -p 80:80/tcp --name web nginx
+#docker run -p 80:80/tcp --name web web
