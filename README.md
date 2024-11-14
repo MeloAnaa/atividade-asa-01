@@ -1,4 +1,3 @@
-# learning-asa
 
 # learning-asa
 
@@ -8,7 +7,8 @@ copiar um arquivo do container para o seu host #docker cp <container_id>:/caminh
 
 principais comandos de operacao git
 
-git status git add .
+git status 
+git add .
 git commit -m "mensagem" 
 git push
 
@@ -36,4 +36,4 @@ git push
 
 servidor web:
 usei:
-#docker run -p 80:80/tcp --name web nginx
+#docker run -p 80:80/tcp --name web web
