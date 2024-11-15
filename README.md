@@ -14,6 +14,7 @@ web/: Contém os arquivos necessários para configurar o servidor Web.
 
 ->Para iniciar o servidor DNS:
 cd /CaminhoDiretorio/atividade-asa-01/dns
+
 ./service.sh dns start
 
 ->Para iniciar o servidor Web:
