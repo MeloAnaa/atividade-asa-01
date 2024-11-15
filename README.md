@@ -19,14 +19,17 @@ cd /CaminhoDiretorio/atividade-asa-01/dns
 
 ->Para iniciar o servidor Web:
 cd  /CaminhoDiretorio/atividade-asa-01/web
+
 ./service.sh web start
 
 
 ->Para parar o servidor DNS:
+
 ./service.sh dns stop
 
 
 ->Para parar o servidor Web:
+
 ./service.sh web stop
 
 
